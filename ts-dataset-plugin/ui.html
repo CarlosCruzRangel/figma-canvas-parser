@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Exportar Dataset</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #1a1a1a;
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      color: #dedede;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 13px;
+      margin: 8px 0 20px;
+      color: #aaa;
+    }
+
+    #status {
+      font-size: 12px;
+      color: #4caf50;
+      margin-top: 12px;
+    }
+
+    .button {
+      --main-focus: #2d8cf0;
+      --font-color: #dedede;
+      --bg-color-sub: #222;
+      --bg-color: #323232;
+      --main-color: #dedede;
+      position: relative;
+      width: 150px;
+      height: 40px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      border: 2px solid var(--main-color);
+      box-shadow: 4px 4px var(--main-color);
+      background-color: var(--bg-color);
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+
+    .button, .button__icon, .button__text {
+      transition: all 0.3s;
+    }
+
+    .button .button__text {
+      transform: translateX(21px);
+      color: var(--font-color);
+      font-weight: 600;
+    }
+
+    .button .button__icon {
+      position: absolute;
+      transform: translateX(109px);
+      height: 100%;
+      width: 39px;
+      background-color: var(--bg-color-sub);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .button .svg {
+      width: 20px;
+      fill: var(--main-color);
+    }
+
+    .button:hover {
+      background: var(--bg-color);
+    }
+
+    .button:hover .button__text {
+      color: transparent;
+    }
+
+    .button:hover .button__icon {
+      width: 148px;
+      transform: translateX(0);
+    }
+
+    .button:active {
+      transform: translate(3px, 3px);
+      box-shadow: 0px 0px var(--main-color);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📦 Exportar Datos de los Elementos del Canvas</h1>
+    <p>Extrae todos los datos del canvas actual y descárgalos como JSON y CSV.</p>
+
+    <div class="button" id="export">
+      <span class="button__text">Exportar</span>
+      <span class="button__icon">
+        <svg class="svg" viewBox="0 0 512 512">
+          <path d="M376.3 217L272 321.3V16h-32v305.3L135.7 217 112 240.7 256 384.7l144-144zM400 432H112v-32H80v64h352v-64h-32z"/>
+        </svg>
+      </span>
+    </div>
+
+    <p id="status"></p>
+  </div>
+
+  <script>
+    const exportBtn = document.getElementById("export");
+    const status = document.getElementById("status");
+
+    exportBtn.onclick = () => {
+      parent.postMessage({ pluginMessage: { type: 'export-dataset' } }, '*');
+      status.textContent = "Exportando...";
+    };
+
+    onmessage = (event) => {
+      const msg = event.data.pluginMessage;
+      if (msg.type === 'dataset-ready') {
+        const blobJson = new Blob([msg.jsonStr], { type: "application/json" });
+        const blobCsv = new Blob([msg.csvStr], { type: "text/csv" });
+
+        downloadBlob(blobJson, "dataset.json");
+        downloadBlob(blobCsv, "dataset.csv");
+
+        status.textContent = "✅ Exportación completada.";
+      }
+    };
+
+    function downloadBlob(blob, filename) {
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }
+  </script>
+</body>
+</html>

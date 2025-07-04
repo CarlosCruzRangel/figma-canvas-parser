@@ -1,0 +1,1080 @@
+[
+  {
+    "id": "24:3",
+    "name": "Rectangle 6",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": -754,
+    "y": 193,
+    "width": 1440,
+    "height": 2206,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(196, 196, 196, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "101:58",
+    "name": "photo-1551183053-bf91a1d81141 1",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": -754,
+    "y": 1879,
+    "width": 471,
+    "height": 560,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "1:2",
+    "name": "Home",
+    "type": "FRAME",
+    "parent": "0:1",
+    "x": -750,
+    "y": -552,
+    "width": 1440,
+    "height": 900,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "layoutMode": "NONE",
+    "itemSpacing": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "paddingRight": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "9:2",
+    "name": "Frame 1",
+    "type": "FRAME",
+    "parent": "1:2",
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 2996,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "layoutMode": "NONE",
+    "itemSpacing": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "paddingRight": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "5:0",
+    "name": "photo-1476224203421-9ac39bcb3327 1",
+    "type": "RECTANGLE",
+    "parent": "9:2",
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 750,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "5:1",
+    "name": "EAT",
+    "type": "TEXT",
+    "parent": "9:2",
+    "x": 161,
+    "y": 353,
+    "width": 212,
+    "height": 166,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(255, 255, 255, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oranienbaum Regular",
+    "characters": "EAT "
+  },
+  {
+    "id": "5:2",
+    "name": "DRINK",
+    "type": "TEXT",
+    "parent": "9:2",
+    "x": 492,
+    "y": 353,
+    "width": 365,
+    "height": 166,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(255, 255, 255, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oranienbaum Regular",
+    "characters": "DRINK"
+  },
+  {
+    "id": "5:3",
+    "name": "VISIT",
+    "type": "TEXT",
+    "parent": "9:2",
+    "x": 976,
+    "y": 353,
+    "width": 296,
+    "height": 166,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(255, 255, 255, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oranienbaum Regular",
+    "characters": "VISIT"
+  },
+  {
+    "id": "8:1",
+    "name": "BARATIE",
+    "type": "TEXT",
+    "parent": "9:2",
+    "x": 31,
+    "y": 8,
+    "width": 206,
+    "height": 64,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(255, 255, 255, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Playfair Display SC Bold",
+    "characters": "BARATIE"
+  },
+  {
+    "id": "8:2",
+    "name": "HOME",
+    "type": "TEXT",
+    "parent": "9:2",
+    "x": 886,
+    "y": 30,
+    "width": 67,
+    "height": 29,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(255, 255, 255, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Patua One Regular",
+    "characters": "HOME"
+  },
+  {
+    "id": "8:10",
+    "name": "MENU",
+    "type": "TEXT",
+    "parent": "9:2",
+    "x": 991,
+    "y": 30,
+    "width": 67,
+    "height": 29,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(255, 255, 255, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Patua One Regular",
+    "characters": "MENU"
+  },
+  {
+    "id": "8:11",
+    "name": "GALLARY",
+    "type": "TEXT",
+    "parent": "9:2",
+    "x": 1096,
+    "y": 30,
+    "width": 99,
+    "height": 29,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(255, 255, 255, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Patua One Regular",
+    "characters": "GALLARY"
+  },
+  {
+    "id": "8:12",
+    "name": "VISIT",
+    "type": "TEXT",
+    "parent": "9:2",
+    "x": 1233,
+    "y": 30,
+    "width": 58,
+    "height": 29,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(255, 255, 255, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Patua One Regular",
+    "characters": "VISIT"
+  },
+  {
+    "id": "8:14",
+    "name": "Vector",
+    "type": "VECTOR",
+    "parent": "9:2",
+    "x": 1329,
+    "y": 32,
+    "width": 28,
+    "height": 28,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(255, 255, 255, 1)",
+    "constraints": {
+      "horizontal": "SCALE",
+      "vertical": "SCALE"
+    }
+  },
+  {
+    "id": "8:16",
+    "name": "Vector",
+    "type": "VECTOR",
+    "parent": "9:2",
+    "x": 1395,
+    "y": 30,
+    "width": 28,
+    "height": 28,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(255, 255, 255, 1)",
+    "constraints": {
+      "horizontal": "SCALE",
+      "vertical": "SCALE"
+    }
+  },
+  {
+    "id": "24:2",
+    "name": "Rectangle 5",
+    "type": "RECTANGLE",
+    "parent": "9:2",
+    "x": 0,
+    "y": 900,
+    "width": 1423,
+    "height": 180,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(196, 196, 196, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "101:16",
+    "name": "Rectangle 9",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": 725,
+    "y": -764,
+    "width": 1440,
+    "height": 2622,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(196, 196, 196, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "14:2",
+    "name": "photo-1484723091739-30a097e8f929 1",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": -757,
+    "y": 715,
+    "width": 474,
+    "height": 591,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "14:4",
+    "name": "photo-1484980972926-edee96e0960d 1",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": -287,
+    "y": 715,
+    "width": 500,
+    "height": 591,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "101:19",
+    "name": "photo-1533777857889-4be7c70b33f7 2",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": 1287,
+    "y": 371,
+    "width": 847,
+    "height": 752,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "101:20",
+    "name": "Rectangle 10",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": 765,
+    "y": 492,
+    "width": 657,
+    "height": 473,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(233, 233, 233, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "101:21",
+    "name": "Rectangle 11",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": 806,
+    "y": 543,
+    "width": 657,
+    "height": 473,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(233, 233, 233, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "101:22",
+    "name": "-Monkey D. Luffy",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 1123,
+    "y": 944,
+    "width": 276,
+    "height": 42,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(0, 0, 0, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Roboto Bold",
+    "characters": "-Monkey D. Luffy"
+  },
+  {
+    "id": "15:0",
+    "name": "photo-1585032226651-759b368d7246 1",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": -287,
+    "y": 1306,
+    "width": 500,
+    "height": 591,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "14:5",
+    "name": "photo-1540189549336-e6e99c3679fe 1",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": -757,
+    "y": 1306,
+    "width": 470,
+    "height": 591,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "12:1",
+    "name": "Time, dedication, and darn good eats.",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": -327,
+    "y": 193,
+    "width": 581,
+    "height": 166,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(0, 0, 0, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oranienbaum Regular",
+    "characters": "   Time, dedication,\n and darn good eats."
+  },
+  {
+    "id": "12:2",
+    "name": "If breakfast is the most important meal of the day, then brunch is the most important meal of the week. We treat it with the pomp and ceremony it deserves, using farm- fresh ingredients to craft food you’ll spend the next six days dreaming about.",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": -656,
+    "y": 389,
+    "width": 1238,
+    "height": 128,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(0, 0, 0, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oranienbaum Regular",
+    "characters": "If breakfast is the most important meal of the day, then brunch is the most important \n  meal of the week. We treat it with the pomp and ceremony it deserves, using farm-\n       fresh ingredients to craft food you’ll spend the next six days dreaming about.\r\n\r\n"
+  },
+  {
+    "id": "14:0",
+    "name": "Rectangle 1",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": -212,
+    "y": 547,
+    "width": 351,
+    "height": 75,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(59, 49, 49, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "14:1",
+    "name": "OUR STORY",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": -138,
+    "y": 555,
+    "width": 203,
+    "height": 59,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(255, 255, 255, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oswald SemiBold",
+    "characters": "OUR   STORY"
+  },
+  {
+    "id": "14:3",
+    "name": "photo-1476224203421-9ac39bcb3327 2",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": 214,
+    "y": 715,
+    "width": 469,
+    "height": 591,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "15:1",
+    "name": "photo-1513456852971-30c0b8199d4d 1",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": 213,
+    "y": 1306,
+    "width": 470,
+    "height": 593,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "101:31",
+    "name": "Our Menu",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 1261,
+    "y": -714,
+    "width": 375,
+    "height": 111,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(0, 0, 0, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oranienbaum Regular",
+    "characters": "Our Menu"
+  },
+  {
+    "id": "101:32",
+    "name": "Breakfast | Lunch | Dinner | Drinks",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 953,
+    "y": -583,
+    "width": 984,
+    "height": 73,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(0, 0, 0, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Overlock Bold",
+    "characters": "Breakfast  |  Lunch  |  Dinner   |  Drinks"
+  },
+  {
+    "id": "101:33",
+    "name": "Buttermilk Flapjacks $16 Two flapjacks served with molasses and our signature sassafras-infused whipped cream.",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 763,
+    "y": -401,
+    "width": 620,
+    "height": 221,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oranienbaum Regular",
+    "characters": "Buttermilk Flapjacks         $16\n\nTwo flapjacks served with molasses and\nour signature sassafras-infused whipped cream."
+  },
+  {
+    "id": "101:34",
+    "name": "Buckwheat Cakes Honey $17 Two thick buckwheat cakes served with honey and our signature sassafras-infused whipped cream.",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 763,
+    "y": -84,
+    "width": 586,
+    "height": 234,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oranienbaum Regular",
+    "characters": "Buckwheat Cakes Honey   $17\n\nTwo thick buckwheat cakes served with honey and our signature sassafras-infused whipped cream."
+  },
+  {
+    "id": "101:35",
+    "name": "Grits & Strawberries $16 Corn grits and local beans known as Arizona Strawberries. Served with onion, garlic,poblano, and ham gravy.",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 1507,
+    "y": -83,
+    "width": 608,
+    "height": 234,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oranienbaum Regular",
+    "characters": "Grits & Strawberries        $16\n\nCorn grits and local beans known as\nArizona Strawberries. Served with onion, garlic,poblano, and ham gravy."
+  },
+  {
+    "id": "101:36",
+    "name": "Line 3",
+    "type": "LINE",
+    "parent": "0:1",
+    "x": 763,
+    "y": -138,
+    "width": 586,
+    "height": 0,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "strokeColor": "rgba(0, 0, 0, 1)",
+    "strokeWeight": 2,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "101:37",
+    "name": "Line 4",
+    "type": "LINE",
+    "parent": "0:1",
+    "x": 1507,
+    "y": -138,
+    "width": 586,
+    "height": 0,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "strokeColor": "rgba(0, 0, 0, 1)",
+    "strokeWeight": 2,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "101:38",
+    "name": "Hotcakes & Sausage $12 Cornmeal and molasses hotcakes served with sweet fennel pork sausage.",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 1507,
+    "y": -401,
+    "width": 645,
+    "height": 179,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oranienbaum Regular",
+    "characters": "Hotcakes & Sausage         $12\n\nCornmeal and molasses hotcakes served with sweet fennel pork sausage."
+  },
+  {
+    "id": "101:39",
+    "name": "Rectangle 13",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": 1236,
+    "y": 206,
+    "width": 425,
+    "height": 86,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(59, 49, 49, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "101:40",
+    "name": "FULL MENU",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 1347,
+    "y": 217,
+    "width": 203,
+    "height": 64,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(255, 255, 255, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oswald Bold",
+    "characters": "FULL  MENU"
+  },
+  {
+    "id": "101:41",
+    "name": "\"When your eggs are accompanied by the long-lost cowboy fry bread, you know you’re in for a treat. The cocktails are expertly crafted and the meals at Baratier are simple yet decadent. The only thing you’ll regret is not having a nap pod to jump into afterwards.\"",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 806,
+    "y": 565,
+    "width": 578,
+    "height": 328,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(0, 0, 0, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Roboto Regular",
+    "characters": "\"When your eggs are accompanied by the long-lost cowboy fry bread, you know you’re in for a treat. The cocktails are expertly crafted and the meals at Baratier are simple yet decadent. The only thing you’ll regret is not having a nap pod to jump into afterwards.\""
+  },
+  {
+    "id": "101:42",
+    "name": "photo-1585144570839-e429bb95ffb4 2",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": 725,
+    "y": 1171,
+    "width": 1440,
+    "height": 512,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "101:43",
+    "name": "EAT TOGETHER",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 1166,
+    "y": 1285,
+    "width": 558,
+    "height": 142,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(255, 255, 255, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oswald Bold",
+    "characters": "EAT TOGETHER"
+  },
+  {
+    "id": "101:44",
+    "name": "Every plate achieves that elusive, cuisine-defining balance of sweet, salty, and sour– dessert.",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 856,
+    "y": 1404,
+    "width": 1176,
+    "height": 106,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(255, 255, 255, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oswald Medium",
+    "characters": "Every plate achieves that elusive, cuisine-defining balance of sweet, salty, and sour– \n                                                         dessert."
+  },
+  {
+    "id": "101:45",
+    "name": "Rectangle 14",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": 1232,
+    "y": 1543,
+    "width": 427,
+    "height": 90,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(56, 55, 55, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "101:46",
+    "name": "MAKE RESERVATION",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 1292,
+    "y": 1558,
+    "width": 307,
+    "height": 59,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(233, 233, 233, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oswald Medium",
+    "characters": "MAKE RESERVATION"
+  },
+  {
+    "id": "101:47",
+    "name": "Rectangle 15",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": 727,
+    "y": 1683,
+    "width": 1438,
+    "height": 175,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(196, 196, 196, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "101:48",
+    "name": "HOURS",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 1970,
+    "y": 1707,
+    "width": 105,
+    "height": 53,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(0, 0, 0, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oswald Bold",
+    "characters": "HOURS"
+  },
+  {
+    "id": "101:49",
+    "name": "CONTACT Sambas Region East Blue Near Grand Line",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 766,
+    "y": 1709,
+    "width": 279,
+    "height": 123,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(0, 0, 0, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oswald Bold",
+    "characters": "     CONTACT\r\n      Sambas Region\nEast Blue Near Grand Line\r\n\r\n"
+  },
+  {
+    "id": "101:50",
+    "name": "BARATIE",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 1364,
+    "y": 1679,
+    "width": 165,
+    "height": 71,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(0, 0, 0, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oswald Bold",
+    "characters": "BARATIE"
+  },
+  {
+    "id": "101:51",
+    "name": "Monday - Sunday 10am - 10pm",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 1942,
+    "y": 1757,
+    "width": 180,
+    "height": 72,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(0, 0, 0, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oswald Bold",
+    "characters": "Monday - Sunday \r\n   10am - 10pm"
+  },
+  {
+    "id": "101:53",
+    "name": "Vector",
+    "type": "VECTOR",
+    "parent": "0:1",
+    "x": 1393,
+    "y": 1750,
+    "width": 30,
+    "height": 30,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(0, 0, 0, 1)",
+    "constraints": {
+      "horizontal": "SCALE",
+      "vertical": "SCALE"
+    }
+  },
+  {
+    "id": "101:55",
+    "name": "Vector",
+    "type": "VECTOR",
+    "parent": "0:1",
+    "x": 1466,
+    "y": 1750,
+    "width": 30,
+    "height": 30,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(0, 0, 0, 1)",
+    "constraints": {
+      "horizontal": "SCALE",
+      "vertical": "SCALE"
+    }
+  },
+  {
+    "id": "101:56",
+    "name": "email@example.com (555) 888-9999",
+    "type": "TEXT",
+    "parent": "0:1",
+    "x": 1339,
+    "y": 1782,
+    "width": 214,
+    "height": 72,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "fillColor": "rgba(0, 0, 0, 1)",
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "fontName": "Oswald Bold",
+    "characters": "email@example.com\r\n   (555) 888-9999"
+  },
+  {
+    "id": "101:59",
+    "name": "photo-1540162416395-16f7dfbb68d1 1",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": -287,
+    "y": 1879,
+    "width": 500,
+    "height": 560,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  },
+  {
+    "id": "101:60",
+    "name": "photo-1585144570839-e429bb95ffb4 3",
+    "type": "RECTANGLE",
+    "parent": "0:1",
+    "x": 217,
+    "y": 1889,
+    "width": 469,
+    "height": 550,
+    "visible": true,
+    "opacity": 1,
+    "rotation": 0,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    }
+  }
+]

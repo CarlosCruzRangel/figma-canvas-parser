@@ -1,0 +1,58 @@
+id,name,type,parent,x,y,width,height,visible,opacity,rotation,fillColor,constraints
+"24:3","Rectangle 6","RECTANGLE","0:1",-754,193,1440,2206,true,1,0,"rgba(196, 196, 196, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:58","photo-1551183053-bf91a1d81141 1","RECTANGLE","0:1",-754,1879,471,560,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"1:2","Home","FRAME","0:1",-750,-552,1440,900,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"9:2","Frame 1","FRAME","1:2",0,0,1440,2996,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"5:0","photo-1476224203421-9ac39bcb3327 1","RECTANGLE","9:2",0,0,1440,750,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"5:1","EAT","TEXT","9:2",161,353,212,166,true,1,0,"rgba(255, 255, 255, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"5:2","DRINK","TEXT","9:2",492,353,365,166,true,1,0,"rgba(255, 255, 255, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"5:3","VISIT","TEXT","9:2",976,353,296,166,true,1,0,"rgba(255, 255, 255, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"8:1","BARATIE","TEXT","9:2",31,8,206,64,true,1,0,"rgba(255, 255, 255, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"8:2","HOME","TEXT","9:2",886,30,67,29,true,1,0,"rgba(255, 255, 255, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"8:10","MENU","TEXT","9:2",991,30,67,29,true,1,0,"rgba(255, 255, 255, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"8:11","GALLARY","TEXT","9:2",1096,30,99,29,true,1,0,"rgba(255, 255, 255, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"8:12","VISIT","TEXT","9:2",1233,30,58,29,true,1,0,"rgba(255, 255, 255, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"8:14","Vector","VECTOR","9:2",1329,32,28,28,true,1,0,"rgba(255, 255, 255, 1)",{"horizontal":"SCALE","vertical":"SCALE"}
+"8:16","Vector","VECTOR","9:2",1395,30,28,28,true,1,0,"rgba(255, 255, 255, 1)",{"horizontal":"SCALE","vertical":"SCALE"}
+"24:2","Rectangle 5","RECTANGLE","9:2",0,900,1423,180,true,1,0,"rgba(196, 196, 196, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:16","Rectangle 9","RECTANGLE","0:1",725,-764,1440,2622,true,1,0,"rgba(196, 196, 196, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"14:2","photo-1484723091739-30a097e8f929 1","RECTANGLE","0:1",-757,715,474,591,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"14:4","photo-1484980972926-edee96e0960d 1","RECTANGLE","0:1",-287,715,500,591,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"101:19","photo-1533777857889-4be7c70b33f7 2","RECTANGLE","0:1",1287,371,847,752,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"101:20","Rectangle 10","RECTANGLE","0:1",765,492,657,473,true,1,0,"rgba(233, 233, 233, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:21","Rectangle 11","RECTANGLE","0:1",806,543,657,473,true,1,0,"rgba(233, 233, 233, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:22","-Monkey D. Luffy","TEXT","0:1",1123,944,276,42,true,1,0,"rgba(0, 0, 0, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"15:0","photo-1585032226651-759b368d7246 1","RECTANGLE","0:1",-287,1306,500,591,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"14:5","photo-1540189549336-e6e99c3679fe 1","RECTANGLE","0:1",-757,1306,470,591,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"12:1","Time, dedication, and darn good eats.","TEXT","0:1",-327,193,581,166,true,1,0,"rgba(0, 0, 0, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"12:2","If breakfast is the most important meal of the day, then brunch is the most important meal of the week. We treat it with the pomp and ceremony it deserves, using farm- fresh ingredients to craft food you’ll spend the next six days dreaming about.","TEXT","0:1",-656,389,1238,128,true,1,0,"rgba(0, 0, 0, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"14:0","Rectangle 1","RECTANGLE","0:1",-212,547,351,75,true,1,0,"rgba(59, 49, 49, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"14:1","OUR STORY","TEXT","0:1",-138,555,203,59,true,1,0,"rgba(255, 255, 255, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"14:3","photo-1476224203421-9ac39bcb3327 2","RECTANGLE","0:1",214,715,469,591,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"15:1","photo-1513456852971-30c0b8199d4d 1","RECTANGLE","0:1",213,1306,470,593,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"101:31","Our Menu","TEXT","0:1",1261,-714,375,111,true,1,0,"rgba(0, 0, 0, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:32","Breakfast | Lunch | Dinner | Drinks","TEXT","0:1",953,-583,984,73,true,1,0,"rgba(0, 0, 0, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:33","Buttermilk Flapjacks $16 Two flapjacks served with molasses and our signature sassafras-infused whipped cream.","TEXT","0:1",763,-401,620,221,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"101:34","Buckwheat Cakes Honey $17 Two thick buckwheat cakes served with honey and our signature sassafras-infused whipped cream.","TEXT","0:1",763,-84,586,234,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"101:35","Grits & Strawberries $16 Corn grits and local beans known as Arizona Strawberries. Served with onion, garlic,poblano, and ham gravy.","TEXT","0:1",1507,-83,608,234,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"101:36","Line 3","LINE","0:1",763,-138,586,0,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"101:37","Line 4","LINE","0:1",1507,-138,586,0,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"101:38","Hotcakes & Sausage $12 Cornmeal and molasses hotcakes served with sweet fennel pork sausage.","TEXT","0:1",1507,-401,645,179,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"101:39","Rectangle 13","RECTANGLE","0:1",1236,206,425,86,true,1,0,"rgba(59, 49, 49, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:40","FULL MENU","TEXT","0:1",1347,217,203,64,true,1,0,"rgba(255, 255, 255, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:41","\"When your eggs are accompanied by the long-lost cowboy fry bread, you know you’re in for a treat. The cocktails are expertly crafted and the meals at Baratier are simple yet decadent. The only thing you’ll regret is not having a nap pod to jump into afterwards.\"","TEXT","0:1",806,565,578,328,true,1,0,"rgba(0, 0, 0, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:42","photo-1585144570839-e429bb95ffb4 2","RECTANGLE","0:1",725,1171,1440,512,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"101:43","EAT TOGETHER","TEXT","0:1",1166,1285,558,142,true,1,0,"rgba(255, 255, 255, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:44","Every plate achieves that elusive, cuisine-defining balance of sweet, salty, and sour– dessert.","TEXT","0:1",856,1404,1176,106,true,1,0,"rgba(255, 255, 255, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:45","Rectangle 14","RECTANGLE","0:1",1232,1543,427,90,true,1,0,"rgba(56, 55, 55, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:46","MAKE RESERVATION","TEXT","0:1",1292,1558,307,59,true,1,0,"rgba(233, 233, 233, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:47","Rectangle 15","RECTANGLE","0:1",727,1683,1438,175,true,1,0,"rgba(196, 196, 196, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:48","HOURS","TEXT","0:1",1970,1707,105,53,true,1,0,"rgba(0, 0, 0, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:49","CONTACT Sambas Region East Blue Near Grand Line","TEXT","0:1",766,1709,279,123,true,1,0,"rgba(0, 0, 0, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:50","BARATIE","TEXT","0:1",1364,1679,165,71,true,1,0,"rgba(0, 0, 0, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:51","Monday - Sunday 10am - 10pm","TEXT","0:1",1942,1757,180,72,true,1,0,"rgba(0, 0, 0, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:53","Vector","VECTOR","0:1",1393,1750,30,30,true,1,0,"rgba(0, 0, 0, 1)",{"horizontal":"SCALE","vertical":"SCALE"}
+"101:55","Vector","VECTOR","0:1",1466,1750,30,30,true,1,0,"rgba(0, 0, 0, 1)",{"horizontal":"SCALE","vertical":"SCALE"}
+"101:56","email@example.com (555) 888-9999","TEXT","0:1",1339,1782,214,72,true,1,0,"rgba(0, 0, 0, 1)",{"horizontal":"MIN","vertical":"MIN"}
+"101:59","photo-1540162416395-16f7dfbb68d1 1","RECTANGLE","0:1",-287,1879,500,560,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
+"101:60","photo-1585144570839-e429bb95ffb4 3","RECTANGLE","0:1",217,1889,469,550,true,1,0,"",{"horizontal":"MIN","vertical":"MIN"}
